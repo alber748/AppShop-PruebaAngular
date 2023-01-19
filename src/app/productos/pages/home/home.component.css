@@ -1,0 +1,43 @@
+
+.content-card-prod {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+}
+.img-prod {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 230px;
+}
+
+.prod {
+  width: 70%;
+}
+
+.title-card {
+  margin-left: 15px;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-title {
+  display: flex;
+  align-items: center;
+}
+
+.flex-title a{
+  width: 50%;
+  text-align: end;
+}
+
+.title-card-product {
+  text-align: justify;
+}

@@ -1,0 +1,28 @@
+<div class="row row-mt-5">
+  <mat-card>
+    
+    <mat-card-title class="title-card"><br>
+      {{ producto.title }}
+    </mat-card-title>
+    <mat-card-content class="content-card-prod"> 
+      <div class="prod">
+        <span>
+          descripcion: {{producto.description}}
+        </span><br><br>
+        <span>
+          Categoria : {{ producto.category | titlecase }}
+        </span><br><br>
+        <span>
+          Precio : {{ producto.price |currency: 'USD' }}
+        </span>
+      </div>
+      <div class="img-prod">
+        <img [src]=" producto.image" >
+      </div>
+    
+    </mat-card-content>
+
+    
+  </mat-card>
+  
+</div>
